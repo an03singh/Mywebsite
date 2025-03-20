@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pic/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>This university had been working since very long time which
+             is now well known for its academic culture</p>
+        <a href=" "class="hero-btn">Visit us to know more</a>
+    </div>
+</section>
+
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>We have been providing world class facilities at our campus</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p> This course is specially designed and made 
+                for the particular age group of students.
+                Its speciallity lies in the methods and knowledge
+                we provide to the students.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Undergraduate</h3>
+            <p> This course is specially designed and made 
+                for the particular age group of students.
+                Its speciallity lies in the methods and knowledge
+                we provide to the students.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p> This course is specially designed and made 
+                for the particular age group of students.
+                Its speciallity lies in the methods and knowledge
+                we provide to the students.
+            </p>
+        </div>
+    </div>
+    
+    </section>
+
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>We have been providing world class facilities at our campus</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="Pic/Campus.jpeg">
+        <div class="layer">
+            <h3>Italy</h3>
+        </div>
+        </div>
+        <div class="campus-col">
+            <img src="Pic/Campus1.jpg">
+        <div class="layer">
+            <h3>France</h3>
+        </div>
+        </div>
+        <div class="campus-col">
+            <img src="Pic/Campus2.jpg">
+        <div class="layer">
+            <h3>Rome</h3>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>We have been providing world class facilities at our campus</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Pic/classroom.jpeg">
+            <h3>Huge classroom</h3>
+            <p>We have been providing world class facilities at our campus</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Pic/Hall.jpeg">
+            <h3>Special Halls</h3>
+            <p>We have been providing world class facilities at our campus</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Pic/library.jpeg">
+            <h3>World class Library</h3>
+            <p>We have been providing world class facilities at our campus</p>
+        </div>
+    </div>
+</section>
+
+   <!---javascript for menu tab---> 
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
